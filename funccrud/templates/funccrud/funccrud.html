@@ -18,34 +18,3 @@
 
 
 
-
-
-<!--
-
-
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>home</title>
-    </head>
-  
-    <a href="{%url 'create'%}">글쓰기</a>
-
-
-        {% for blog in blogs.all %}
-        <p>{{blog.title}}</p>
-        <p>{{blog.pub_date}}</p>
-        <p>{{blog.body}}</p>
-
-   
-    <a href="{%url 'delete' blog.id %}">삭제</a>
-    <a href="{%url 'update' blog.id%}">수정</a>
-
-{%endfor%}
-
-<a href="{%url 'portfolio'%}">portfolio</a>
-    </body>
-</html>
-
--->
-
